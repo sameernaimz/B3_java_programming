@@ -1,50 +1,49 @@
 package day06_a_arithmetic_operators;
 
 public class TypeCasting {
-    public static void main(String[] args) {
+
 
         public static void main (String [] args) {
-            // We can declare multiple variables on the same line if they have same datatype
-            //String word1;
-            //String word2;
-            String word1, word2;
+            byte b = 40;
+            int i = b;  // the byte value is AUTOMATICALLY CONVERTED into int, because byte is SMALLER than int
 
-            // We can declare and assign values to multiple variables on the same line if they have same datatype
-            String houseType = "Penthouse", fullAddress = "12345 Test St";
+            int i2 = 100;
+            byte b2 = (byte)i2; // int is BIGGER than byte, so we must CAST. We CAST the int type variable - i2 to a byte type variable using (byte)
+            System.out.println(i2);
+            System.out.println(b2); // // this will be same 100 because byte can hold MAX 127, so there will NOT be data loss
 
-            int numOfBedroom = 4;
-            int numOfBathroom = 3;
-            int numOfKitchen = 2;
-            int zipCode = 54321;
+            int i3 = 150;
+            byte b3 = (byte)i3;
+            System.out.println(i3);
+            System.out.println(b3); // this will not print 150 because byte can hold MAX 127, so there will be data loss
 
-            boolean hasBasement = false;
-            boolean hasAttic = false;
-            boolean hasPool = true;
-            boolean isOnSale = false;
-            boolean hasPark = true;
-
-            double costOfHouse = 999_999.99;
-            double schoolRating = 4.9;
-
-                num1 = 13;
-        num2 = 5;
-        remainder = num1 % num2;
-        System.out.println(num1 + " % " + num2 + " = " + remainder);   //module --- >  13 / 5 = whatever is not DIVISIBLE will be the REMAINDER
-
-/*
-        13 / 5 = 2.6
-        13 % 5 = 3
-            5 + 5 + 3
- */
+            // byte b4 = 100; // Here 100 is assigned to byte. We know that byte can hold 100
 
 
-        int n1 = 7;
-        int n2 = 5;
-        int result = n1 / n2;
-        System.out.println(result); // 1.4 -- > 1
+            int i4 = 500;
+            long l4 = i4;  // int is SMALLER than long, so, AUTOMATIC CONVERSION is happening.
 
 
-        // byte b3 = 100; // here 100 is assigned to byte know byte can hold a 100
+            long l5 = 200;
+            int i5 = (int)l5;
 
-    }
+
+            double d6 = 50;
+            System.out.println(d6);
+
+
+            double d7 = 60.7;
+            int i7 = (int)d7; // there is data loss.
+            System.out.println(d7);
+            System.out.println(i7);
+
+
+            double d8 = 40.8;
+            byte b8 = (byte)d8;
+            System.out.println(d8);
+            System.out.println(b8);
+
+
+            // byte < short < int < long < float < double
+        }
 }
