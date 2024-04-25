@@ -1,51 +1,6 @@
 package day10_if_statements;
 
-
-    /*
-    create a char variable with a letter (can only do this one hardcoded, no Scanner method for char)
-    find out if the letter is an uppercase letter or lowercase letter. Print the type of letter it is
-
-    ex:
-        'b'
-        lowercase
-
-    ex:
-        'U'
-        uppercase
- */
-
-int score = 70;
-
-        if (score >= 75){
-        System.out.println("Passing the exam!");
-        } else {
-                System.out.println("Failing the exam!");
-        }
-
-
-                // if score is > 90 -- > print excellent else print keep working
-                // what happens is score is  == 90
-                // what happens if score is  < 90
-
-                if (score > 90) { // 70
-        System.out.println("Excellent");
-        } else {
-                System.out.println("Keep Working");
-        }
-
-
-
-int year = 2029;
-boolean isLockdown = year == 2020 || year == 2021;
-
-        if(isLockdown) {
-        System.out.println("Stay at home.");
-            System.out.println("Practice CODING");
-        } else {
-                System.out.println("Go outside");
-            System.out.println("Meet with friends");
-        }
-
+import java.util.*;
 public class BankAccount {
     public static void main(String[] args) {
         Scanner key = new Scanner(System.in);

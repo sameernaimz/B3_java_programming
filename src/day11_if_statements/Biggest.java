@@ -1,5 +1,5 @@
 package day11_if_statements;
-java.util.Scanner;
+import java.util.Scanner;
 
 public class Biggest {
     public static void main(String[] args) {
@@ -28,4 +28,7 @@ public class Biggest {
                     System.out.println("All same");
                 }
 
-            }
+    }
+}
+
+
