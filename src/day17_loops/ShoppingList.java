@@ -14,7 +14,7 @@ public class ShoppingList {
             System.out.println("DO YOU WANT TO ADD MORE ITEM");
             userAnswer = key.nextLine();
 
-        } while ( userAnswer.equalsIgnoreCase("yes")); || userAnswer.equalsIgnoreCase("y");
+        } while ( userAnswer.equalsIgnoreCase("yes")) || userAnswer.equalsIgnoreCase("y");
         System.out.println(list);
     }
 }

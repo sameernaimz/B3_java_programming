@@ -1,6 +1,6 @@
 package day17_loops;
 
-public class Factorial {
+public class hecFactorial {
     public static void main(String[] args) {
         int n = 5;
         int originalN = n;
