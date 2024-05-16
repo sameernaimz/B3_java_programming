@@ -13,7 +13,7 @@ public class ATM {
         do {
             System.out.println("please, enter your pin:");
             userInput = key.nextInt();
-            attempts++
+            attempts++;
         } while (attempts < 3 && userInput != validPin);
 
         if (validPin == userInput) {
