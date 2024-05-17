@@ -68,23 +68,48 @@ public class ArrayUtil {
     }
 
 
-    /**
-     * This method checks if the given number exists in the array
-     * @param arr is the given array to be checked
-     * @param num is the given number to check is it exists in array
-     * @return boolean if given num exists in array or not.
-     */
-    public static boolean contains (int [] arr, int num) {
 
-        //boolean result = false;
-        for ( int eachNum : arr) {
-            if (eachNum == num){
-                return true;
-            }
+/**
+ * This method checks if the given number exists in the array
+ * @param arr is the given array to be checked
+ * @param num is the given number to check is it exists in array
+ * @return boolean if given num exists in array or not.
+ */
+public static boolean contains (int [] arr, int num) {
+
+    //boolean result = false;
+    for ( int eachNum : arr) {
+        if (eachNum == num){
+            return true;
         }
-
-        return false;
     }
+
+    return false;
+ }
+    /**
+     * This method returns new array with added element at the end
+     * @param origArr is an array where we will add an element to the end
+     * @param elemToAdd is the element we will add to the end
+     * @return new array with added element
+     */
+    public static int [] addElemInArr (int [] origArr, int elemToAdd){
+
+
+        int [] newArr = Arrays.copyOf(origArr, origArr.length+1);
+        // {1, 2, 3, _}
+        newArr[newArr.length-1] = elemToAdd;
+
+        return newArr;
+    }
+
+
+    //TODO: create a reusable method that take 2 int array and return one array combined
+
+
 }
+
+
+
+
 
 
