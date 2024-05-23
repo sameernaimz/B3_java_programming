@@ -23,7 +23,7 @@ public class CountNumbers {
         count(5);
         count(10);
         count(-10);
-        count(25)
+        count(25);
 
     }
 }
