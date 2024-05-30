@@ -1,4 +1,4 @@
-package day04_variables;
+package day05_variablesc;
 /*
     create a class CellPhone
     create a main method
