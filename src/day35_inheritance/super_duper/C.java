@@ -12,4 +12,4 @@ package day35_inheritance.super_duper;
             this.n = n;
         }
     }
-}
+
