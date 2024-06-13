@@ -1,6 +1,10 @@
 package day32_custom_classes;
 
-public class Jobs {
+public class
+
+
+
+Jobs {
     public static void main(String[] args) {
         Offer o1 = new Offer("Apple", "California");
         System.out.println(o1);
