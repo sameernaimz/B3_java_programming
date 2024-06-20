@@ -1,9 +1,13 @@
-package day34_a_static;
+package day34_b_encapsulation;
 
 import my_utilities.StringUtil;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
+
+import static java.lang.Math.PI;
+import static java.util.Arrays.sort;
+import static my_utilities.ArrayUtil.minNumInArr;
+import static my_utilities.StringUtil.reverse;
 
 public class Normal {
     public static void main(String[] args) {

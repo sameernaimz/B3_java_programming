@@ -30,5 +30,6 @@ public class Library {
 
         AudioBook audio1 = new AudioBook();
         audio1.author = new Author ("Thomas Jefferson", 70);
+        System.out.println(audio1.author.getName());
         }
 }

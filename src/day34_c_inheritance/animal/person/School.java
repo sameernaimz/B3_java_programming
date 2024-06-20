@@ -15,6 +15,12 @@ public class School {
         s1.talk(); // Child class can access to Parent class members
         s1.study(); // Child class can access to own members
         s1.isHappy = true;
+
+        OnlineStudent o1 = new OnlineStudent();
+        o1.name = "Tom";
+        o1.isHappy = true;
+        o1.zoomLinkAddress = "https://......";
+
     }
 
     }
