@@ -28,9 +28,18 @@ public class Author {
         return age;
     }
 
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
     public void setAge(int age) {
         //this.age = age;
         if(age > 10);
         this.age = age;
+
     }
 }
