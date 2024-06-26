@@ -1,4 +1,4 @@
-package AccountNumber.day41_collection.list;
+package day41_collection.list;
 
 import java.util.ArrayList;
 import java.util.List;

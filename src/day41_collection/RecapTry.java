@@ -1,6 +1,5 @@
-package AccountNumber.day41_collection;
+package day41_collection;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class RecapTry {
