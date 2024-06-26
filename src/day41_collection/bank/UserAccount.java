@@ -1,8 +1,4 @@
-package AccountNumber.day41_collection.bank;
-
-import org.w3c.dom.ls.LSOutput;
-
-import javax.security.auth.login.AccountNotFoundException;
+package day41_collection.bank;
 
 public class UserAccount {
     public static void main(String[] args) {

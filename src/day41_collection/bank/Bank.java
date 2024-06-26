@@ -1,4 +1,4 @@
-package AccountNumber.day41_collection.bank;
+package day41_collection.bank;
 
 public class Bank {
 double balance;
